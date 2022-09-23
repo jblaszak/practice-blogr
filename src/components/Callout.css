@@ -2,8 +2,8 @@
   display: grid;
   place-items: center;
   text-align: center;
-  margin: 15rem 0 10rem 0;
-  background: url("../../images/bg-pattern-circles.svg"),
+  margin: 15rem 0 4rem 0;
+  background: url("./images/bg-pattern-circles.svg"),
     linear-gradient(
       0deg,
       var(--gradient-very-dark-desaturated-blue) 0%,
@@ -44,13 +44,14 @@
 
 @media (min-width: 600px) {
   .callout {
+    margin: 6rem 0;
     grid-template-columns:
       [full-start] minmax(1rem, 1fr)
       [main-start] minmax(0, var(--max-width))
       [main-end] minmax(1rem, 1fr)
       [full-end];
     text-align: left;
-    background: url("../../images/bg-pattern-circles.svg"),
+    background: url("./images/bg-pattern-circles.svg"),
       linear-gradient(
         270deg,
         var(--gradient-very-dark-desaturated-blue) 0%,
