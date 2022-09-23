@@ -31,6 +31,10 @@
   margin-bottom: 6rem;
 }
 
+.container div {
+  margin: 1rem;
+}
+
 .callout h1,
 .callout p {
   color: white;
@@ -51,7 +55,7 @@
       [main-end] minmax(1rem, 1fr)
       [full-end];
     text-align: left;
-    background: url("./images/bg-pattern-circles.svg"),
+    background: url("../public/images/bg-pattern-circles.svg"),
       linear-gradient(
         270deg,
         var(--gradient-very-dark-desaturated-blue) 0%,
@@ -75,7 +79,7 @@
   }
 
   .container div {
-    margin: 8rem 0 8rem 2rem;
+    margin: 8rem 0;
     grid-area: text;
     align-self: center;
   }

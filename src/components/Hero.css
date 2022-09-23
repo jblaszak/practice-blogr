@@ -58,7 +58,7 @@
 
 @media (min-width: 600px) {
   .hero {
-    background: url("./images/bg-pattern-intro-desktop.svg"),
+    background: url("../public/images/bg-pattern-intro-desktop.svg"),
       linear-gradient(90deg, var(--gradient-very-light-red) 0%, var(--gradient-light-red) 100%);
     background-position: 27% 52%;
     background-size: unset;
