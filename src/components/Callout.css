@@ -3,7 +3,7 @@
   place-items: center;
   text-align: center;
   margin: 15rem 0 4rem 0;
-  background: url("./images/bg-pattern-circles.svg"),
+  background: url("../images/bg-pattern-circles.svg"),
     linear-gradient(
       0deg,
       var(--gradient-very-dark-desaturated-blue) 0%,
@@ -55,7 +55,7 @@
       [main-end] minmax(1rem, 1fr)
       [full-end];
     text-align: left;
-    background: url("../public/images/bg-pattern-circles.svg"),
+    background: url("../images/bg-pattern-circles.svg"),
       linear-gradient(
         270deg,
         var(--gradient-very-dark-desaturated-blue) 0%,

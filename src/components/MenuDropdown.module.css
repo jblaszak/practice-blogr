@@ -19,7 +19,7 @@
 
 .dropdown span::after {
   display: inline-block;
-  content: url("../public/images/icon-arrow-dark.svg");
+  content: url("../images/icon-arrow-dark.svg");
   margin-left: 0.5ch;
   transform: rotate(0deg);
   transform-origin: 50% 60%;
@@ -98,7 +98,7 @@
   }
 
   .dropdown span::after {
-    content: url("../public/images/icon-arrow-light.svg");
+    content: url("../images/icon-arrow-light.svg");
   }
 
   .dropdown ul {
