@@ -23,9 +23,10 @@
   letter-spacing: 0.075ch;
 }
 
-.footer-links span {
+.footer-links h2 {
   color: white;
   font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .footer-links ul {
@@ -72,8 +73,7 @@
     margin: 0;
   }
 
-  .footer-links span {
-    display: block;
+  .footer-links h2 {
     margin-bottom: 2rem;
   }
 
